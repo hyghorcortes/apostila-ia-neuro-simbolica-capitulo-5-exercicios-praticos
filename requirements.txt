@@ -1,0 +1,3 @@
+# Única dependência externa dos exercícios do Capítulo 5.
+# Todo o restante utiliza apenas a biblioteca padrão do Python.
+numpy>=1.24

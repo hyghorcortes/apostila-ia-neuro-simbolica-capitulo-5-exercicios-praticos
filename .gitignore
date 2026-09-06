@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
