@@ -2,9 +2,9 @@
 
 Este repositório reúne **5 exercícios práticos** prontos para importação direta no GitHub.
 
-Os exercícios acompanham o Capítulo 5 — *Apresentando a IA Neuro-Simbólica: o Próximo Nível da IA*
-— e reproduzem computacionalmente as figuras do capítulo, do arcabouço simbólico da Figura 5.1
-até a arquitetura da Neural Logic Machine da Figura 5.6.
+Os exercícios acompanham o Capítulo 5 — *Apresentando a IA Neuro-Simbólica — o Próximo Nível da
+IA* — e reproduzem computacionalmente as figuras do capítulo, do arcabouço simbólico da
+Figura 5.1 até a arquitetura da Neural Logic Machine da Figura 5.6.
 
 ## Estrutura
 
@@ -32,7 +32,17 @@ python3 exercicio_01_base_de_conhecimento_simbolica/exercicio_pratico_1_base_de_
 
 Os scripts rodam sem argumentos, sem entrada interativa, sem escrita de arquivos e sem rede. A
 semente aleatória é fixa (`SEMENTE = 42`), portanto **a saída é sempre a mesma** entre execuções e
-entre máquinas.
+entre máquinas. Nenhuma linha de relatório passa de 78 colunas.
+
+| Exercício | Execução | Relatório |
+| --- | ---: | ---: |
+| 1 — o ingrediente simbólico | menos de 1 s | 316 linhas |
+| 2 — o ingrediente neural | ~1 min | 439 linhas |
+| 3 — o NSCL simplificado | ~10 s | 280 linhas |
+| 4 — raciocínio dinâmico e contrafactual | ~6 s | 473 linhas |
+| 5 — Neural Logic Machine | ~13 s | 382 linhas |
+
+Os tempos são de uma máquina ociosa e variam com o hardware; as contagens de linhas, não.
 
 ## Objetivo didático
 
@@ -47,7 +57,7 @@ como:
 - dedução de primeira ordem em tensores e os eixos de *breadth* e *depth* da Neural Logic Machine
 
 Cada exercício tem seu próprio `README.md`, com o detalhamento do que é demonstrado, como
-executar e o que esperar da saída.
+executar, o que esperar da saída e sugestões de extensão para o leitor.
 
 ## Observação
 

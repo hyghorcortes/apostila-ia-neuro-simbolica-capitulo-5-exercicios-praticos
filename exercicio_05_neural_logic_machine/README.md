@@ -47,8 +47,8 @@ python3 exercicio_pratico_5_neural_logic_machine.py
 ```
 
 Sem argumentos, sem entrada interativa, sem escrita de arquivos, sem rede. A execução leva cerca
-de **10 segundos**. A semente é fixa (`SEMENTE = 42`), portanto **a saída é byte a byte a mesma**
-em execuções sucessivas, e nenhuma das 382 linhas do relatório passa de 78 colunas.
+de **13 segundos** e produz **382 linhas**, todas dentro de 78 colunas. A semente é fixa
+(`SEMENTE = 42`), portanto **a saída é byte a byte a mesma** em execuções sucessivas.
 
 ## O que esperar da saída
 
