@@ -52,10 +52,10 @@ escritos do zero, com gradientes à mão.
 python3 exercicio_pratico_3_nscl_simplificado.py
 ```
 
-Sem argumentos, sem entrada interativa, sem escrita de arquivos, sem rede. A execução leva menos
-de meio minuto numa máquina ociosa — quase tudo é treino. A semente é fixa (`SEMENTE = 42`) e
-todo modelo recebe um gerador derivado dela, portanto **duas execuções seguidas produzem saídas
-byte a byte idênticas**. Nenhuma linha do relatório passa de 78 colunas.
+Sem argumentos, sem entrada interativa, sem escrita de arquivos, sem rede. A execução leva cerca
+de **10 segundos** numa máquina ociosa — quase tudo é treino — e produz **280 linhas**. A semente
+é fixa (`SEMENTE = 42`) e todo modelo recebe um gerador derivado dela, portanto **duas execuções
+seguidas produzem saídas byte a byte idênticas**. Nenhuma linha do relatório passa de 78 colunas.
 
 ## O que esperar da saída
 

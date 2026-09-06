@@ -56,7 +56,7 @@ python3 exercicio_pratico_4_raciocinio_dinamico_e_contrafactual.py
 ```
 
 Sem argumentos, sem entrada interativa, sem escrita de arquivos. A execução leva cerca de
-**14 segundos** e produz **473 linhas**, todas dentro de 78 colunas. A semente é fixa
+**6 segundos** e produz **473 linhas**, todas dentro de 78 colunas. A semente é fixa
 (`SEMENTE = 42`), portanto duas execuções seguidas são byte a byte idênticas.
 
 ## O que esperar da saída

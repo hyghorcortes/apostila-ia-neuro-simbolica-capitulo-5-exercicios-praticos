@@ -1,6 +1,6 @@
 # Exercício Prático 2 — O ingrediente neural: percepção sem raciocínio
 
-**Capítulo 5 — Introdução à IA Neuro-Simbólica — o Próximo Nível da IA**
+**Capítulo 5 — Apresentando a IA Neuro-Simbólica — o Próximo Nível da IA**
 Reproduz computacionalmente a Figura 5.2 (uma rede neural densa, cada neurônio ligado a todos os
 da camada anterior) e prepara as Figuras 5.4 e 5.5, retomadas no Exercício 3.
 
@@ -50,8 +50,9 @@ python3 exercicio_pratico_2_ingrediente_neural_percepcao_sem_raciocinio.py
 ```
 
 Sem argumentos, sem entrada interativa, sem escrita de arquivos, sem rede. A execução leva cerca
-de **50 segundos** e imprime 439 linhas. A semente é fixa (`SEMENTE = 42`) e a álgebra linear
-roda em uma única thread, portanto **a saída é byte a byte idêntica entre execuções**.
+de **1 minuto** e imprime **439 linhas**, todas dentro de 78 colunas. A semente é fixa
+(`SEMENTE = 42`) e a álgebra linear roda em uma única thread, portanto **a saída é byte a byte
+idêntica entre execuções**.
 
 ## O que esperar da saída
 

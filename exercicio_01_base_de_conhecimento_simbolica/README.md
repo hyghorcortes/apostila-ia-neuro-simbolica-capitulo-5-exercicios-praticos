@@ -1,6 +1,6 @@
 # Exercício Prático 1 — O ingrediente simbólico: base de conhecimento e motor de inferência
 
-**Capítulo 5 — Introdução à IA Neuro-Simbólica — o Próximo Nível da IA**
+**Capítulo 5 — Apresentando a IA Neuro-Simbólica — o Próximo Nível da IA**
 Reproduz computacionalmente a Figura 5.1 (o arcabouço de uma IA simbólica: uma base de
 conhecimento escrita por humanos alimentando um motor de inferência).
 
@@ -49,9 +49,10 @@ o valor didático: você vê a máquina simbólica por dentro.
 python3 exercicio_pratico_1_base_de_conhecimento_simbolica.py
 ```
 
-Sem argumentos, sem entrada interativa, sem escrita de arquivos. A execução leva cerca de
-1 segundo. A semente aleatória é fixa (`SEMENTE = 42`), portanto **a saída é sempre a mesma** —
-inclusive entre máquinas, porque toda varredura de fatos é feita sobre listas ordenadas.
+Sem argumentos, sem entrada interativa, sem escrita de arquivos. A execução leva **menos de
+1 segundo** e produz **316 linhas**, todas dentro de 78 colunas. A semente aleatória é fixa
+(`SEMENTE = 42`), portanto **a saída é sempre a mesma** — inclusive entre máquinas, porque toda
+varredura de fatos é feita sobre listas ordenadas.
 
 ## O que esperar da saída
 
